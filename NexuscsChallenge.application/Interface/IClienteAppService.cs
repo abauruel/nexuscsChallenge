@@ -1,4 +1,5 @@
-﻿using NexuscsChallenge.domain.Entities;
+﻿using NexocsChallenge.Domain.Entities;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

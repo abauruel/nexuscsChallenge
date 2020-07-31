@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using NexuscsChallenge.domain.Entities;
+using NexocsChallenge.Domain.Entities;
 using NexuscsChallenge.mvc.ViewModels;
 using System;
 using System.Collections.Generic;

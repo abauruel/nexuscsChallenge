@@ -1,15 +1,14 @@
 ﻿using NexocsChallenge.Domain.Entities;
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NexuscsChallenge.application.Interface
+namespace NexocsChallenge.Domain.Interfaces.Repositories
 {
-    public interface IProdutoAppService: IAppServiceBase<Produto>
+    public interface IClienteRepository : IRepositoryBase<Cliente>
     {
-        IEnumerable<Produto> GetByName(string name);
+
     }
 }

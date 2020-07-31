@@ -217,17 +217,17 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Nexuscs.domain\NexuscsChallenge.domain.csproj">
-      <Project>{7344c5b3-4f4f-46da-8527-cd4e27c52878}</Project>
-      <Name>NexuscsChallenge.domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NexuscsCalenge.Infraestrutura.data\NexuscsChallenge.Infraestrutura.data.csproj">
-      <Project>{DF2B816C-4147-44E9-A886-6E2678AA445D}</Project>
-      <Name>NexuscsChallenge.Infraestrutura.data</Name>
+    <ProjectReference Include="..\NexocsChallenge.Domain\NexocsChallenge.Domain.csproj">
+      <Project>{2369FDEF-3AC6-4421-B997-06AB50B584E9}</Project>
+      <Name>NexocsChallenge.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\NexuscsChallenge.application\NexuscsChallenge.application.csproj">
       <Project>{f032623b-5f06-4ace-b5c0-d45d1d3bcee0}</Project>
       <Name>NexuscsChallenge.application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NexuscsChallenge.Infraestrutura.data\NexuscsChallenge.Infraestrutura.data.csproj">
+      <Project>{A1F7C195-FE1F-4F77-A317-63396311AFDE}</Project>
+      <Name>NexuscsChallenge.Infraestrutura.data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

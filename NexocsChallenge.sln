@@ -21,9 +21,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexuscsChallenge.mvc", "Nex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexuscsChallenge.application", "NexuscsChallenge.application\NexuscsChallenge.application.csproj", "{F032623B-5F06-4ACE-B5C0-D45D1D3BCEE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexuscsChallenge.domain", "Nexuscs.domain\NexuscsChallenge.domain.csproj", "{7344C5B3-4F4F-46DA-8527-CD4E27C52878}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexocsChallenge.Domain", "NexocsChallenge.Domain\NexocsChallenge.Domain.csproj", "{2369FDEF-3AC6-4421-B997-06AB50B584E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexuscsChallenge.Infraestrutura.data", "NexuscsCalenge.Infraestrutura.data\NexuscsChallenge.Infraestrutura.data.csproj", "{DF2B816C-4147-44E9-A886-6E2678AA445D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexuscsChallenge.Infraestrutura.data", "NexuscsChallenge.Infraestrutura.data\NexuscsChallenge.Infraestrutura.data.csproj", "{A1F7C195-FE1F-4F77-A317-63396311AFDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,14 +39,14 @@ Global
 		{F032623B-5F06-4ACE-B5C0-D45D1D3BCEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F032623B-5F06-4ACE-B5C0-D45D1D3BCEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F032623B-5F06-4ACE-B5C0-D45D1D3BCEE0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7344C5B3-4F4F-46DA-8527-CD4E27C52878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7344C5B3-4F4F-46DA-8527-CD4E27C52878}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7344C5B3-4F4F-46DA-8527-CD4E27C52878}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7344C5B3-4F4F-46DA-8527-CD4E27C52878}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF2B816C-4147-44E9-A886-6E2678AA445D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF2B816C-4147-44E9-A886-6E2678AA445D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF2B816C-4147-44E9-A886-6E2678AA445D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF2B816C-4147-44E9-A886-6E2678AA445D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2369FDEF-3AC6-4421-B997-06AB50B584E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2369FDEF-3AC6-4421-B997-06AB50B584E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2369FDEF-3AC6-4421-B997-06AB50B584E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2369FDEF-3AC6-4421-B997-06AB50B584E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F7C195-FE1F-4F77-A317-63396311AFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F7C195-FE1F-4F77-A317-63396311AFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F7C195-FE1F-4F77-A317-63396311AFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F7C195-FE1F-4F77-A317-63396311AFDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,8 +56,8 @@ Global
 		{5C35440F-75A2-40DC-8E91-9C68DCDF754F} = {999DEDDD-0878-464A-8DDD-9C56E06A3E20}
 		{715E6FEE-48F7-4FE3-8788-C14CDA80454F} = {63A1263F-D305-410F-8246-D7CEC0B2C39F}
 		{F032623B-5F06-4ACE-B5C0-D45D1D3BCEE0} = {6B823F80-489C-486E-BB55-6F5155B8CDAD}
-		{7344C5B3-4F4F-46DA-8527-CD4E27C52878} = {BB22F3A0-E00F-4B8E-A483-EF4F1EBDFAF6}
-		{DF2B816C-4147-44E9-A886-6E2678AA445D} = {E94338A3-70B1-4BC4-B984-D8AEA96E7AD4}
+		{2369FDEF-3AC6-4421-B997-06AB50B584E9} = {BB22F3A0-E00F-4B8E-A483-EF4F1EBDFAF6}
+		{A1F7C195-FE1F-4F77-A317-63396311AFDE} = {E94338A3-70B1-4BC4-B984-D8AEA96E7AD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8252ACA7-865F-47BE-9382-35EF4674A268}

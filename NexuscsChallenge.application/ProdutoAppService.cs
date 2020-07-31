@@ -1,6 +1,8 @@
-﻿using Nexuscs.domain.Interfaces.Services;
+﻿using NexocsChallenge.Domain.Entities;
+using NexocsChallenge.Domain.Interfaces.Services;
+
 using NexuscsChallenge.application.Interface;
-using NexuscsChallenge.domain.Entities;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using NexocsChallenge.Domain.Entities;
 using NexuscsCalenge.Infraestrutura.data.Repositories;
-using NexuscsChallenge.domain.Entities;
 using NexuscsChallenge.mvc.AutoMapper;
 using NexuscsChallenge.mvc.ViewModels;
 using System;
@@ -24,7 +24,6 @@ namespace NexuscsChallenge.mvc.Controllers
         public ActionResult Index()
         {
 
-            
             var clientes = _mapper.Map<IEnumerable<ClienteViewModel>>(_clienteRepository.GetAll());
             return View(clientes);
         }
